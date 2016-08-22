@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	font-size: 16px;
+}
+
+.mainContent {
+	/*background: url('../images/fondo.jpg');
+	background-size: cover;*/
+	min-height: auto;
+}
+.mainContent:hover {
+	transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+     -o-transform:scale(1.2); 
+     -webkit-transition: all 500ms ease-in-out; // IE 9
+     -moz-transition: all 500ms ease-in-out; // Firefox
+     -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+     -o-transition: all 500ms ease-in-out; //
+}
+.content{
+	width: 400px;
+	height: 400px;
+	background: rgba(255, 0, 0,0.4);
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;   /* height/2 = 400px / 2 */
+    margin-left: -200px; 
+    text-align: center;
+}
+.content h1{
+	font-size: 60px;
+	color: hsl(0, 100%, 30%);;
+}
+.first{ 
+    font-size: 30px;
+	margin: 15px 0;
+}
+
+.second{
+	font-size: 25px;
+	margin: 20px 0;
+}
+
+figure .cara{
+	margin-top: 5px;
+	border: 2px solid white;
+    border-radius: 70px;
+}
